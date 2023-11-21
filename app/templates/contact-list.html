@@ -11,6 +11,12 @@
             hx-delete="{% url 'delete-contact' contact.pk %}"
             hx-target="#contact-list"
             hx-confirm="Are you sure you wish to delete?">X</span>
+
+        <span class="badge badge-info badge-pill"
+            style="cursor: pointer;"
+            hx-delete="{% url 'delete-contact' contact.pk %}"
+            hx-target="#contact-list"
+            hx-confirm="Are you sure you wish to delete?">e</span>
             
     </li>
 {% endfor %}
